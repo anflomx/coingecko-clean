@@ -16,6 +16,19 @@
 		E1AD9A942B87D74700C68C58 /* CoinGeckoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9A932B87D74700C68C58 /* CoinGeckoTests.swift */; };
 		E1AD9A9E2B87D74700C68C58 /* CoinGeckoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9A9D2B87D74700C68C58 /* CoinGeckoUITests.swift */; };
 		E1AD9AA02B87D74700C68C58 /* CoinGeckoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9A9F2B87D74700C68C58 /* CoinGeckoUITestsLaunchTests.swift */; };
+		E1AD9AAD2B87D76700C68C58 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AAC2B87D76700C68C58 /* CryptoCurrency.swift */; };
+		E1AD9AB22B87D7FD00C68C58 /* GetGlobalCryptoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AB12B87D7FD00C68C58 /* GetGlobalCryptoList.swift */; };
+		E1AD9AB52B87DA6900C68C58 /* GlobalCryptoListRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AB42B87DA6900C68C58 /* GlobalCryptoListRepositoryProtocol.swift */; };
+		E1AD9AB72B87DADD00C68C58 /* CryptoCurrencyDomainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AB62B87DADD00C68C58 /* CryptoCurrencyDomainError.swift */; };
+		E1AD9ABB2B87DB5800C68C58 /* CryptoCurrencyRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9ABA2B87DB5800C68C58 /* CryptoCurrencyRepository.swift */; };
+		E1AD9ABE2B87E12500C68C58 /* CryptoCurrencyPriceInfoDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9ABD2B87E12500C68C58 /* CryptoCurrencyPriceInfoDTO.swift */; };
+		E1AD9AC02B87E15700C68C58 /* CryptoCurrencyBasicDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9ABF2B87E15700C68C58 /* CryptoCurrencyBasicDTO.swift */; };
+		E1AD9AC32B87E1F300C68C58 /* HttpClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AC22B87E1F300C68C58 /* HttpClientError.swift */; };
+		E1AD9AC52B87E23100C68C58 /* ApiDataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AC42B87E23100C68C58 /* ApiDataSourceProtocol.swift */; };
+		E1AD9AC72B886E2900C68C58 /* CryptoCurrencyDomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AC62B886E2900C68C58 /* CryptoCurrencyDomainMapper.swift */; };
+		E1AD9AC92B886E6600C68C58 /* CryptoCurrencyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9AC82B886E6600C68C58 /* CryptoCurrencyBuilder.swift */; };
+		E1AD9ACB2B886EFE00C68C58 /* CryptoCurrencyDomainErrorMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9ACA2B886EFE00C68C58 /* CryptoCurrencyDomainErrorMapper.swift */; };
+		E1AD9ACE2B886F5600C68C58 /* Foundations+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD9ACD2B886F5600C68C58 /* Foundations+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,19 @@
 		E1AD9A992B87D74700C68C58 /* CoinGeckoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinGeckoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1AD9A9D2B87D74700C68C58 /* CoinGeckoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGeckoUITests.swift; sourceTree = "<group>"; };
 		E1AD9A9F2B87D74700C68C58 /* CoinGeckoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinGeckoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E1AD9AAC2B87D76700C68C58 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		E1AD9AB12B87D7FD00C68C58 /* GetGlobalCryptoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGlobalCryptoList.swift; sourceTree = "<group>"; };
+		E1AD9AB42B87DA6900C68C58 /* GlobalCryptoListRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalCryptoListRepositoryProtocol.swift; sourceTree = "<group>"; };
+		E1AD9AB62B87DADD00C68C58 /* CryptoCurrencyDomainError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyDomainError.swift; sourceTree = "<group>"; };
+		E1AD9ABA2B87DB5800C68C58 /* CryptoCurrencyRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyRepository.swift; sourceTree = "<group>"; };
+		E1AD9ABD2B87E12500C68C58 /* CryptoCurrencyPriceInfoDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyPriceInfoDTO.swift; sourceTree = "<group>"; };
+		E1AD9ABF2B87E15700C68C58 /* CryptoCurrencyBasicDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyBasicDTO.swift; sourceTree = "<group>"; };
+		E1AD9AC22B87E1F300C68C58 /* HttpClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientError.swift; sourceTree = "<group>"; };
+		E1AD9AC42B87E23100C68C58 /* ApiDataSourceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiDataSourceProtocol.swift; sourceTree = "<group>"; };
+		E1AD9AC62B886E2900C68C58 /* CryptoCurrencyDomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyDomainMapper.swift; sourceTree = "<group>"; };
+		E1AD9AC82B886E6600C68C58 /* CryptoCurrencyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyBuilder.swift; sourceTree = "<group>"; };
+		E1AD9ACA2B886EFE00C68C58 /* CryptoCurrencyDomainErrorMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyDomainErrorMapper.swift; sourceTree = "<group>"; };
+		E1AD9ACD2B886F5600C68C58 /* Foundations+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Foundations+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +125,9 @@
 		E1AD9A7B2B87D74200C68C58 /* CoinGecko */ = {
 			isa = PBXGroup;
 			children = (
+				E1AD9ACC2B886F3300C68C58 /* Utils */,
+				E1AD9AB82B87DB2500C68C58 /* Data */,
+				E1AD9AAE2B87D77100C68C58 /* Domain */,
 				E1AD9A7C2B87D74200C68C58 /* AppDelegate.swift */,
 				E1AD9A7E2B87D74200C68C58 /* SceneDelegate.swift */,
 				E1AD9A802B87D74200C68C58 /* ViewController.swift */,
@@ -125,6 +154,88 @@
 				E1AD9A9F2B87D74700C68C58 /* CoinGeckoUITestsLaunchTests.swift */,
 			);
 			path = CoinGeckoUITests;
+			sourceTree = "<group>";
+		};
+		E1AD9AAE2B87D77100C68C58 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AB32B87DA2E00C68C58 /* Interfaces */,
+				E1AD9AB02B87D7D900C68C58 /* UseCases */,
+				E1AD9AAF2B87D77900C68C58 /* Entities */,
+				E1AD9AB62B87DADD00C68C58 /* CryptoCurrencyDomainError.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		E1AD9AAF2B87D77900C68C58 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AAC2B87D76700C68C58 /* CryptoCurrency.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		E1AD9AB02B87D7D900C68C58 /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AB12B87D7FD00C68C58 /* GetGlobalCryptoList.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
+		E1AD9AB32B87DA2E00C68C58 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AB42B87DA6900C68C58 /* GlobalCryptoListRepositoryProtocol.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		E1AD9AB82B87DB2500C68C58 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AC12B87E1B300C68C58 /* Networking */,
+				E1AD9ABC2B87E10A00C68C58 /* DTOs */,
+				E1AD9AB92B87DB2F00C68C58 /* Repositories */,
+				E1AD9AC62B886E2900C68C58 /* CryptoCurrencyDomainMapper.swift */,
+				E1AD9AC82B886E6600C68C58 /* CryptoCurrencyBuilder.swift */,
+				E1AD9ACA2B886EFE00C68C58 /* CryptoCurrencyDomainErrorMapper.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1AD9AB92B87DB2F00C68C58 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9ABA2B87DB5800C68C58 /* CryptoCurrencyRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		E1AD9ABC2B87E10A00C68C58 /* DTOs */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9ABD2B87E12500C68C58 /* CryptoCurrencyPriceInfoDTO.swift */,
+				E1AD9ABF2B87E15700C68C58 /* CryptoCurrencyBasicDTO.swift */,
+			);
+			path = DTOs;
+			sourceTree = "<group>";
+		};
+		E1AD9AC12B87E1B300C68C58 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9AC22B87E1F300C68C58 /* HttpClientError.swift */,
+				E1AD9AC42B87E23100C68C58 /* ApiDataSourceProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E1AD9ACC2B886F3300C68C58 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E1AD9ACD2B886F5600C68C58 /* Foundations+Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +369,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1AD9AB22B87D7FD00C68C58 /* GetGlobalCryptoList.swift in Sources */,
+				E1AD9AC52B87E23100C68C58 /* ApiDataSourceProtocol.swift in Sources */,
 				E1AD9A812B87D74200C68C58 /* ViewController.swift in Sources */,
 				E1AD9A7D2B87D74200C68C58 /* AppDelegate.swift in Sources */,
 				E1AD9A7F2B87D74200C68C58 /* SceneDelegate.swift in Sources */,
+				E1AD9AC02B87E15700C68C58 /* CryptoCurrencyBasicDTO.swift in Sources */,
+				E1AD9AC72B886E2900C68C58 /* CryptoCurrencyDomainMapper.swift in Sources */,
+				E1AD9ABE2B87E12500C68C58 /* CryptoCurrencyPriceInfoDTO.swift in Sources */,
+				E1AD9AC32B87E1F300C68C58 /* HttpClientError.swift in Sources */,
+				E1AD9AAD2B87D76700C68C58 /* CryptoCurrency.swift in Sources */,
+				E1AD9ABB2B87DB5800C68C58 /* CryptoCurrencyRepository.swift in Sources */,
+				E1AD9AC92B886E6600C68C58 /* CryptoCurrencyBuilder.swift in Sources */,
+				E1AD9ACE2B886F5600C68C58 /* Foundations+Extensions.swift in Sources */,
+				E1AD9ACB2B886EFE00C68C58 /* CryptoCurrencyDomainErrorMapper.swift in Sources */,
+				E1AD9AB52B87DA6900C68C58 /* GlobalCryptoListRepositoryProtocol.swift in Sources */,
+				E1AD9AB72B87DADD00C68C58 /* CryptoCurrencyDomainError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
